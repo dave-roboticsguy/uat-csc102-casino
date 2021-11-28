@@ -29,7 +29,7 @@ function play() {
         document.getElementById("crapsDemo8").innerHTML = "<br/>";
     }
 
-    /*     if the above condition is not met, the flow goes into the elseif
+    /* if the above condition is not met, the flow goes into the elseif
         this uses the logical "and" operator and die1 modulo remainder must be even
         this condition will never be met since we dont have any user inputs */
     else if (die1 == die2 && die1 % 2 == 0) {
@@ -50,7 +50,7 @@ pics.push("die04.svg");
 pics.push("die05.svg");
 pics.push("die06.svg");
 
-/* this is what links to the html */
+/* assigns the querySelectorAll() method to the dice object to be used later in roll()*/
 let dice = document.querySelectorAll("img");
 
 function roll() {
@@ -67,8 +67,7 @@ function roll() {
         document.querySelector("#die-02").setAttribute("src", pics[dieTwoIndexVal]);
     });
 }
-
-// This function is used to play a song from an mp3 file on the web.
+// This function is used to play a song from an mp3 file stored in root
 function playMusic() {
     var music = new Audio('\ManhattanSkyline.mp3');
     music.play();
