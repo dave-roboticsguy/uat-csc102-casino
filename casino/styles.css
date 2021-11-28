@@ -1,0 +1,126 @@
+/* CSS by David Garcia, 2021 */
+
+/*To have the background on the entire page*/
+body {
+    /* instructs browser to auto scale width & height */
+    background: url('casino_wallpaper.png') no-repeat center fixed;
+    /* resizes the background image to cover up whole tag space, 
+    image will be stretched and cropped depending on ratio. */
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150px;
+    letter-spacing: 12px;
+    word-spacing: 23px;
+    line-height: 150px;
+    text-align: center;
+}
+
+#casinoInfo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4.0rem;
+    text-align: left;
+    color: white
+}
+
+#crapsDemo1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    text-align: left;
+    color: white
+}
+
+#crapsDemo2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    text-align: left;
+    color: white
+}
+
+#crapsDemo3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    text-align: left;
+    color: white
+}
+
+#crapsDemo4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    text-align: left;
+    color: white
+}
+
+#crapsDemo5 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    text-align: left;
+    color: white
+}
+
+#crapsDemo6 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    text-align: left;
+    color: white
+}
+
+#crapsDemo7 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    text-align: left;
+    color: white
+}
+
+#crapsDemo8 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    text-align: left;
+    color: white
+}
+
+#crapsDemo9 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    text-align: left;
+    color: white
+}
+
+#crapsDemo10 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    text-align: left;
+    color: white
+}
+
+button {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.0rem;
+    padding: 120px 200px;
+    text-align: center;
+    background-color: #e92e3d;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    padding: 15px 0;
+    width: 300px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Background color when mouse hovers over button */
+button:hover {
+    background-color: darkred;
+}
+
+button:active {
+    /* Controls space inside the button, buffer room, and clickable space */
+    /* How much the button moves */
+    transform: translateY(4px);
+    background-color: rgba(235, 62, 62, 0.856);
+    box-shadow: 0 5px 0 rgb(153, 2, 2),
+}
